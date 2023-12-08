@@ -125,38 +125,38 @@ section.main{
 #meuBotao:hover {
     background-color: #275d81;
 }
-.diferenciais{
+.destaque-agua-saneamento{
     display: flex;
     flex-wrap: wrap;
 }
-.diferencial-single{
+.destaque-single{
     border-radius: 10px;
     background-color: white;
     width: 23%;
     margin-right: 2%;
     padding: 50px 20px;
 }
-.diferencial-single i{
+.destaque-single i{
     color: #124265;
     font-size: 23px;
 }
-.diferencial-single h2{
+.destaque-single h2{
     color: #124265;
     margin: 10px 0;
     font-size: 17px;
 }
-.diferencial-single p{
+.destaque-single p{
     color: gray;
     font-size: 14px;
     line-height: 30px;
 }
-.diferenciais {
+.destaque {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .diferencial-single {
+  .destaque-single {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,11 +303,11 @@ h3{
     font-size: 24px; /* Tamanho dos ícones */
 }
 
-.sobre-empreendedor-content h2 {
+.sobre-agua-saneamento h2 {
     animation: slideFromRight 1s ease forwards;
 }
 
-.sobre-empreendedor-content h3 {
+.sobre-agua-saneamento-content h3 {
     animation: slideFromLeft 1s ease forwards;
 
 }
@@ -343,3 +343,14 @@ h3{
     background-color: #275d81;
   }
 
+  .sobre-footer{
+    width: 600;
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 0.7rem;
+}
